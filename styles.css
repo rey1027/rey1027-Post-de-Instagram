@@ -1,0 +1,94 @@
+body {
+    background-color: black; 
+    display: flex;
+    flex-direction: colunm;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+    box-sizing: border-box;
+}
+
+.post{
+    
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    justify-content: center;
+    align-content: center;
+    background: white;
+}
+
+.header{
+    width: 100%;
+    display: inline-flex;
+    flex-flow: row nowrap ;
+    padding: 8px;
+}
+
+.left {
+    width: 50%;
+    display: inline-flex;
+}
+
+.elipse {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.logo {
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.image{
+    height: auto;
+}
+
+.icons{
+    width: 100%;
+    display: inline-flex;
+}
+
+.like{
+    padding-left: 4px;
+}
+.comment{
+    padding-left: 4px; 
+}
+.share{
+    padding-left: 4px;
+}
+
+.i-left{
+    width: 50%;
+    display: inline-flex;
+    
+}
+.save{
+    
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding-right: 15px;
+    
+}
+
+.description{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 580px;
+    text-align: justify;
+    
+}
+
+.reaction{
+    padding-left: 10px;
+}
